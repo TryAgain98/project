@@ -1,0 +1,38 @@
+#table tr td{
+border: 1px solid black;
+text-align: center;
+padding: 5px;
+}
+
+#table tr th{
+border: 1px solid black;
+text-align: center;
+padding: 10px;
+}
+
+#add {
+	background-color: #66ff66;
+}
+#search{
+	background-color: #66ff66;
+}
+#delete{
+text-decoration: none;
+	color: black;
+	padding: 10px 20px;
+	background-color: #66ff66;
+	border: 1px solid #d9d9d9;
+}
+#delete:hover, #delete:active {
+  border: 1px solid #b3b3b3;
+}
+#edit {
+	color: black;
+	padding: 10px 25px;
+	border: 1px solid #d9d9d9;
+	text-decoration: none;
+	background-color: #66ff66;
+}
+#edit:hover, #edit:active {
+  border: 1px solid #b3b3b3;
+}
